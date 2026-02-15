@@ -134,9 +134,9 @@ nav a:hover {
   transition: 0.3s;
 }
 
-.grid img:hover {
-  transform: scale(1.05);
-}
+/*.grid img:hover {
+  transform: scale(1.05); 
+}*/
 
 .contacto {
   padding: 80px 0;
@@ -161,4 +161,43 @@ footer {
   .hero h1 {
     font-size: 1.8rem;
   }
+}
+p.galeria{
+  font-size: 18px;
+  color: #0F3D2E;
+  margin-top: 10px;
+  display: flex;
+  justify-content: start;
+  padding: 10px 20px;
+  background-color: #e7e1da;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  
+}
+.galerias{
+  background-color: #e7e1da;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.galerias h3{
+  font-size: 22px;
+  color: #0F3D2E;
+  margin-bottom: -10px;
+  display: flex;
+  justify-content: start;
+  padding: 10px 20px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+} 
+
+.galerias:hover{
+  transform: scale(1.05);
+  
 }
